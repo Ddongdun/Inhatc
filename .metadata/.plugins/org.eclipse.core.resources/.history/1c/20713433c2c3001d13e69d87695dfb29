@@ -1,0 +1,12 @@
+package week3;
+
+public class BitOperator {
+	public static void main(String[] args) {
+		byte num1 = 45;
+		byte num2 = 25;
+		int result = num1 & num2;
+		System.out.println("num1 = " + num1);
+		System.out.println("num1 = " + num2);
+		System.out.println("num1 = " + result);
+	}
+}

@@ -1,0 +1,9 @@
+package week3;
+
+public class CastingType {
+	public static void main(String[] args) {
+		int iData = 65;
+		char cData = (char) iData;
+		System.out.println(cData);
+	}
+}
