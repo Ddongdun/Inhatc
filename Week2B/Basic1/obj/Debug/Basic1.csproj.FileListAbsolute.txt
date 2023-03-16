@@ -1,8 +1,0 @@
-C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week2B\Basic1\bin\Debug\Basic1.exe.config
-C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week2B\Basic1\bin\Debug\Basic1.exe
-C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week2B\Basic1\bin\Debug\Basic1.pdb
-C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week2B\Basic1\obj\Debug\Basic1.csproj.AssemblyReference.cache
-C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week2B\Basic1\obj\Debug\Basic1.csproj.SuggestedBindingRedirects.cache
-C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week2B\Basic1\obj\Debug\Basic1.csproj.CoreCompileInputs.cache
-C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week2B\Basic1\obj\Debug\Basic1.exe
-C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week2B\Basic1\obj\Debug\Basic1.pdb
