@@ -1,0 +1,8 @@
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Fourth\bin\Debug\Fourth.exe.config
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Fourth\bin\Debug\Fourth.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Fourth\bin\Debug\Fourth.pdb
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Fourth\obj\Debug\Fourth.csproj.AssemblyReference.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Fourth\obj\Debug\Fourth.csproj.SuggestedBindingRedirects.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Fourth\obj\Debug\Fourth.csproj.CoreCompileInputs.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Fourth\obj\Debug\Fourth.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Fourth\obj\Debug\Fourth.pdb
