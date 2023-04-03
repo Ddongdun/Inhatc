@@ -1,0 +1,8 @@
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Proj1\Proj1\bin\Debug\Proj1.exe.config
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Proj1\Proj1\bin\Debug\Proj1.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Proj1\Proj1\bin\Debug\Proj1.pdb
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Proj1\Proj1\obj\Debug\Proj1.csproj.AssemblyReference.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Proj1\Proj1\obj\Debug\Proj1.csproj.SuggestedBindingRedirects.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Proj1\Proj1\obj\Debug\Proj1.csproj.CoreCompileInputs.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Proj1\Proj1\obj\Debug\Proj1.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Proj1\Proj1\obj\Debug\Proj1.pdb
