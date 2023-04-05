@@ -1,0 +1,8 @@
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Third\bin\Debug\Third.exe.config
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Third\bin\Debug\Third.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Third\bin\Debug\Third.pdb
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Third\obj\Debug\Third.csproj.AssemblyReference.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Third\obj\Debug\Third.csproj.SuggestedBindingRedirects.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Third\obj\Debug\Third.csproj.CoreCompileInputs.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Third\obj\Debug\Third.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week3\Third\obj\Debug\Third.pdb
