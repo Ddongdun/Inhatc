@@ -1,0 +1,11 @@
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week4_homework\Week4_homework\bin\Debug\Week4_homework.exe.config
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week4_homework\Week4_homework\bin\Debug\Week4_homework.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week4_homework\Week4_homework\bin\Debug\Week4_homework.pdb
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week4_homework\Week4_homework\obj\Debug\Week4_homework.csproj.AssemblyReference.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week4_homework\Week4_homework\obj\Debug\Week4_homework.csproj.SuggestedBindingRedirects.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week4_homework\Week4_homework\obj\Debug\Week4_homework.Form1.resources
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week4_homework\Week4_homework\obj\Debug\Week4_homework.Properties.Resources.resources
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week4_homework\Week4_homework\obj\Debug\Week4_homework.csproj.GenerateResource.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week4_homework\Week4_homework\obj\Debug\Week4_homework.csproj.CoreCompileInputs.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week4_homework\Week4_homework\obj\Debug\Week4_homework.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Week4_homework\Week4_homework\obj\Debug\Week4_homework.pdb
