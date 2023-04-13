@@ -4,10 +4,12 @@ public class OneOperand3 {
 	public static void main(String[] args) {
 		int var1 = 10;
 		int var2 = ~var1;
+		//var1의 비트 값을 반전
 		int var3 = ~var1 + 1;
 		System.out.println("var1 = " + var1);
 		System.out.println("var2 = " + var2);
 		System.out.println("var3 = " + var3);
+		//정수형 타입은 부호가 존재할 때 양수보다 음수가 1크기 때문에 -11이 나온
 		//var1 = 10
 		//var2 = -11
 		//var3 = -10
