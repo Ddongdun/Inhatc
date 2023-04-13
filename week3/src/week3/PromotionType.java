@@ -19,12 +19,16 @@ public class PromotionType {
 		//44032
 		
 		iValue = 375;
+		//일반 변수에 375값을 넣어준다
 		long lValue = iValue;
+		//logn변수에 넣어준다
 		System.out.println(lValue);
 		//375
 		
 		double dValue = iValue;
+		//double형 변수에 넣어준다
 		System.out.println(dValue);
+		//double이므로 소수좀까지 표
 		//375.0
 	}
 
