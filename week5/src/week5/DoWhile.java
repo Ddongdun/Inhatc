@@ -11,10 +11,12 @@ public class DoWhile {
 		String inputStr;
 		
 		do {
+		//일단 반복
 			System.out.print(">");
 			inputStr = sc.nextLine();
 			System.out.println(inputStr);
 		} while(!inputStr.equals("q"));
+		//q가 입력되기 전 
 		System.out.println("프로그램 종료");
 	}
 }
