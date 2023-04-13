@@ -7,6 +7,7 @@ public class IfDice {
 		System.out.println("랜덤 숫자 : " + num);
 		
 		int number = (int)(Math.random() * 6 + 1);
+		//1~6값을 얻기 위해 1을 더하고 6을 곱해준다
 		System.out.println("주사위 던지기 : " + number);
 	}
 }
