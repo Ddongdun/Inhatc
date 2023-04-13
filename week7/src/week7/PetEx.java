@@ -1,0 +1,17 @@
+package week7;
+
+public class PetEx {
+	public static void main(String[] args) {
+		Pet dog = new Pet("강아지", 8, 4);
+		Pet cat = new Pet("고양이", 13, 4);
+		Pet bird = new Pet("새", 6, 2);
+		
+		System.out.printf("%s는 %d개월입니다\n", dog.type, dog.age);
+		System.out.printf("%s는 %d개월입니다\n", cat.type, cat.age);
+		System.out.printf("%s는 %d개월입니다\n", bird.type, bird.age);
+		System.out.println();
+		System.out.printf("%s 다리는 %d개 입니다\n", dog.type, dog.leg);
+		System.out.printf("%s 다리는 %d개 입니다\n", cat.type, cat.leg);
+		System.out.printf("%s 다리는 %d개 입니다\n", bird.type, bird.leg);
+	}
+}
