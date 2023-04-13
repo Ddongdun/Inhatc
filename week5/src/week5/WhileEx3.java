@@ -6,7 +6,9 @@ public class WhileEx3 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		boolean run = true;
+		//boolean 초기값으로 true
 		int speed = 0;
+		//속도 0
 	
 		while(run) {
 			System.out.println("--------------------");
