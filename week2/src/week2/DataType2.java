@@ -3,6 +3,7 @@ package week2;
 public class DataType2 {
 	public static void main(String[] args) {
 		float fValue = 3.14f;
+		//f를 붙여 실수형으로 인식시킬 수 있다.
 		double dValue = 3.14;
 		System.out.println("fValue = " + fValue);
 		System.out.println("dValue = " + dValue);
@@ -13,7 +14,9 @@ public class DataType2 {
 		
 		//정밀도 테스트
 		fValue = 0.1234567890123456789f;
+		//f를 붙여 float형으로 인식시킨다.
 		dValue = 0.1234567890123456789d;
+		//d를 붙여 double형으로 인식시킨다.
 		System.out.println("fValue = " + fValue);
 		System.out.println("dValue = " + dValue);
 		/*
