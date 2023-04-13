@@ -8,6 +8,7 @@ public class ForStar {
 		System.out.println("랜덤 숫자 : " + num);
 		
 		for(int i = 1; i <= num ; i++)
+		//랜덤 숫자보다 작거나 
 			System.out.println("★");
 	}
 }
