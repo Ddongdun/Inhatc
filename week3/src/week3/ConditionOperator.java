@@ -7,6 +7,7 @@ public class ConditionOperator {
 		String result;
 		
 		result = (num1 > num2)? "num1이 num2보다 크다" : "num1이 num2보다 작다";
+		//삼항연산자
 		System.out.printf("num1 = %d, num2 = %d\n", num1, num2);
 		System.out.printf("두 수를 비교한 결과는 %s\n\n", result);
 		//num1 = 35, num2 = 47
@@ -16,7 +17,9 @@ public class ConditionOperator {
 		//35가 47보다 큽니까? false
 		
 		boolean bResult;
+		//boolean 형식으로 결과값 담을 변수 선언
 		bResult = (num1 > num2)? true:false;
+		//boolean 이므로 true, false의 결과 값 도출
 		System.out.println(bResult);
 		//false
 		
