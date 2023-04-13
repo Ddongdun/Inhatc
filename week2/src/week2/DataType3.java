@@ -2,9 +2,13 @@ package week2;
 
 public class DataType3 {
 	public static void main(String[] args) {
-		char cData1 = 'A';			//문자열을 직접 저장
-		char cData2 = 65;			//10진수로 저장
-		char cData3 = '\u0041';		//16진수로 저장
+		//자바는 모든 문자를 유니코드로리처리
+		char cData1 = 'A';			
+		//문자열을 직접 저장
+		char cData2 = 65;			
+		//10진수로 저장
+		char cData3 = '\u0041';		
+		//16진수로 저장
 		
 		System.out.println("cData1 = " + cData1);
 		System.out.println("cData2 = " + cData2);
@@ -16,8 +20,11 @@ public class DataType3 {
 		*/
 		
 		char cData4 = '가';
+		//문자열을 직접 저장
 		char cData5 = 44032;
+		//10진수로 저장
 		char cData6 = '\uac00';
+		//16진수로 저
 		
 		System.out.println("cData4 = " + cData4);
 		System.out.println("cData5 = " + cData5);
@@ -43,10 +50,12 @@ public class DataType3 {
 		*/
 		
 		int cData10 = cData7 + cData9;
+		//문자들의 합은 유니코드의 합으로 나온다
 		System.out.println("cData10 = " + cData10);
 		//cData10 = 104
 		
 		char cData11 = (char)(cData7 + cData9);
+		//(char)로 형변환 
 		System.out.println("(cData7 + cData9)의 char = " + cData11);
 		//(cData7 + cData9)의 char = h
 		
