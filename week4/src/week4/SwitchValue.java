@@ -22,7 +22,7 @@ public class SwitchValue {
 		case"A" -> 100;	
 		//단일 값을 주는 경우
 		case"B" -> {
-		//명령문을 추가 하는 경우 {}활룡
+		//명령문을 추가 하는 경우 {}활용
 			int result = 100 - 20;
 			yield result;
 			//변수값 지정시 yield 사용
