@@ -9,7 +9,7 @@ public class SwitchGrade {
 		//점수를 입력받는다
 		
 		int score = sc.nextInt();
-		//점수를 정수형으로 입력받아 int형 변수에 저
+		//점수를 정수형으로 입력받아 int형 변수에 저장 
 		
 		char grade = switch(score/10) {
 		//grade 변수에 switch문을 넣어서 값을 저장할 수 있다.
