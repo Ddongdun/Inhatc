@@ -30,30 +30,32 @@ def insert_nodes(find_data, insert_data):
         node.data = insert_data
         #새 노드에 데이터 삽입
         node.link = head
-        #새 노드의 링크를 헤드에 연결
+        #새 노드의 링크를 원래 헤드에 연결
         head = node
-        #노드를 헤드로 지정
+        #새 노드를 새로운 헤드로 지정
         return
 
     #중간 노드에 데이터 삽입
     current = head
+    #처음부터
     while current.link is not None:
     #현재 처리중인 값이 None이 아닐 때 까지
         pre = current
-        #pre 증가
+        #전 노드
         current = current.link
-        #current 증가
+        #후 노드
         if current.data == find_data:
         #값을 찾았다면
             node = Node()
-            #노드 생성
+            #새 노드 생성
             node.data = insert_data
-            #노드에 데이터 삽입
+            #새 노드에 데이터 삽입
             node.link = current
-            #노드의 링크를 현재 처리중인 노드에 연결
+            #새 노드의 링크를 후 노드에 연결
             pre.link = node
-            #앞 노드 링크에 노드 연결
+            #전 노드 링크에 노드 연결
             return
+            #전 노드 -> 새 노드 -> 후 노드
 
     #마지막 노드에 데이터 삽입
     node = Node()
@@ -61,31 +63,35 @@ def insert_nodes(find_data, insert_data):
     node.data = insert_data
     #생성된 노드에 데이터 삽입
     current.link = node
-    #현재 처리중인 노드 링크에 노드 연결
+    #마지막 노드 링크에 노드 연결
 
 def delete_nodes(delete_data):
+#노드 삭제 함수
     global head, current, pre
+    #전역 변수 선언
 
     if head.data == delete_data:
     #헤드 데이터가 삭제할 데이터라면
         current = head
         #현재 처리중인 노드를 헤드로 지정
         head = head.link
-        #헤드링크 업데이트
+        #헤드 노드를 다음 노드로 지정한다
         del current
         #노드 삭제
         return
 
     current = head
+    #처음부터
     while current.link is not None:
+    #값이 빌때까지 반복
         pre = current
-        # pre 증가
+        #전 노드
         current = current.link
-        # current 증가
+        #후 노드
         if current.data == delete_data:
         #현재 처리중인 노드가 삭제할 데이터라면
             pre.link = current.link
-            #앞 노드의 링크에 커런트 링크 연결
+            #전 노드의 링크에 후 노드의 다음 노드(후 노드의 링크)를 연결
             del current
             #노드 삭제
             return
