@@ -93,17 +93,20 @@ def delete_nodes(delete_data):
     print("삭제된 노드가 없습니다")
 
 def find_node(find_data):
+#찾기 함수 
     global head, current, pre
+    #전역 변수 선언
     if head.data == find_data:
     #head가 찾는 데이터라면
         return head
         #헤드 값 반환
 
     current = head
+    #처음부터
     while current.link is not None:
-    #링크값이 빈값이 아닐때까지 반복
+    #빈 값이 나올때까지 반복
         current = current.link
-        #커런트 링크 연결해서 다음 값 비교
+        #다음 노드로경변경
         if current.data == find_data:
         #데이터를 찾았다면
             return current
