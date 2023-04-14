@@ -9,19 +9,30 @@ def print_poly(f_x):
     :param f_x: 정수 타입의 계수를 원소로 하는 리스트
     :return: 다항식 문자열
     """
-    term = len(f_x) - 1  # 최고차항 숫자 = 배열길이-1
-    poly_str = "P(x) = "  # 배열에 있는 값을 다항식으로 변환 후 출력
+    term = len(f_x) - 1  
+    # 최고차항 숫자 = 배열길이-1
+    poly_str = "P(x) = "  
+    # 배열에 있는 값을 다항식으로 변환 후 출력
 
     for i in range(len(fx)):
-        coef = f_x[i]  # 계수
+        coef = f_x[i]  
+        # 계수
 
-        if coef == 0: #계수가 0이라면
-            term = term - 1 #지수 하나 줄여줌
-            continue #출력안함
-        elif coef >= 0 and i != 0:  # 계수가 양수이면서 동시가 i가 0이 아닐때
-            #poly_str += "+"  # 부호를 붙여 양수로 만든다
-            poly_str = poly_str + "+"  # 부호를 붙여 양수로 만든다
-        #poly_str += str(coef) + "x^" + str(term) + " "  # 거듭제곱수를 붙여준다
+        if coef == 0: 
+        #계수가 0이라면
+            term = term - 1 
+            #지수 하나 줄여줌
+            #다음 차항 계산을 위해 줄여준다
+            continue 
+            #출력안함
+        elif coef >= 0 and i != 0:  
+        # 계수가 양수이면서 동시가 i가 0이 아닐때
+            #poly_str += "+"  
+            # 부호를 붙여 양수로 만든다
+            poly_str = poly_str + "+"  
+            # 부호를 붙여 양수로 만든다
+        #poly_str += str(coef) + "x^" + str(term) + " "  
+        # 거듭제곱수를 붙여준다
         poly_str = poly_str + f"{coef}x^{term} "
         term = term - 1  # 다음 차항
 
@@ -36,12 +47,16 @@ def calc_poly(x_Value, f_x):
     :return: 다항식 산술 연산 계산 값
     """
     ret_value = 0
-    term = len(f_x) - 1  # 최고차항 숫자 = 배열길이-1
+    term = len(f_x) - 1  
+    # 최고차항 숫자 = 배열길이-1
 
     for i in range(len(fx)):
-        coef = f_x[i]  # 계수
-        ret_value += coef * x_Value ** term  # 항의 값 계산해서 변수에 더해준다
-        term = term - 1  # 다음 차항
+        coef = f_x[i]  
+        # 계수
+        ret_value += coef * x_Value ** term  
+        # 항의 값 계산해서 변수에 더해준다
+        term = term - 1 
+        # 다음 차항
 
     return ret_value
 
