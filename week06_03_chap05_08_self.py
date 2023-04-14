@@ -12,8 +12,10 @@ def print_nodes(start):
         return
 
     print(current.data, end=' ')
-    while current.link is not start:  # current의 링크 값이 None이 아닐때 까지
-        current = current.link  # 가르키는 대상 증가
+    while current.link is not start:  
+    # current의 링크 값이 None이 아닐때 까지
+        current = current.link  
+        # 가르키는 대상 증가
         print(current.data, end=' ')
     print()
 
@@ -22,22 +24,36 @@ def toggle_plus_minus() -> tuple:
     :return: (양수 갯수, 0 갯수,  음수 갯수)
     """
     global head, current
+    #전역 변수 선언
     plus, zero, minus = 0, 0, 0
+    #숫자들의 갯수를 담을 변수
     current = head
+    #처음부터
     while True:
         if current.data % 2 < 0:
+        #음수라면
             minus = minus + 1
+            #음수갯수 추가 
         elif current.data % 2 > 0:
+        #양수라면
             plus = plus + 1
+            #양수갯수 추가
         else:
+        #0이라면
             zero = zero + 1
+            #0갯수 추가
 
         current.data = current.data * -1
+        #양수는 음수로, 음수는 양수로 바꾸어 준다
 
         if current.link is head:
+         #마지막이라면
             break
+            #탈출
         current = current.link
+        #다음 노드
     return plus, minus, zero
+    #개수 반환
 
 def count_odd_even() -> tuple:
     """
@@ -45,17 +61,28 @@ def count_odd_even() -> tuple:
     :return (홀수 갯수, 짝수 갯수)
     """
     global head, current, pre
+    #전역 변수 선언
     odd, even = 0, 0
+    #홀수와 짝수의 갯수를 담을 변수
     current = head
+    #처음부터
     while True:
         if current.data % 2 == 0:
+        #짝수라면
             even = even + 1
+            #짝수 갯수 +1
         else:
+        #홀수라면
             odd = odd + 1
+            #홀수 갯수 +1
         if current.link is head:
+        #마지막이라면
             break
+            #탈출
         current = current.link
+        #다음 노드
     return odd, even
+    #개수 환환
 
 def make_minus_number(odd, even):
     """
@@ -65,16 +92,27 @@ def make_minus_number(odd, even):
     :return:
     """
     if odd > even:
+    #홀수가 짝수보다 많다면
         remainder = 1
+        #홀수가 많음을 알려줌
     else:
+    #짝수가 홀수보다 많다면
         remainder = 0
+        #짝수가 많음을 알려줌
     current = head
+    #처음부터
     while True:
+    #무한반
         if current.data % 2 == remainder:
+        #개수가 더 많은 쪽이라면
             current.data *= -1
+            #음수로 바꿔준다
         if current.link == head:
+        #마지막이라면
             break;
+            #탈출
         current = current.link
+        #드다음 노드
 head, current, pre = None, None, None
 data_array = [random.randint(-100, 100) for _  in range(7)]
 
