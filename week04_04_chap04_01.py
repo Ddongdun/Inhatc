@@ -1,7 +1,11 @@
 class Node():
+#Node라는 데이터형을 만드는 것
     def __init__(self):
+    #데이터형을 생성할 때 자동으로 실행되는 부분
         self.data = None
+        #데이터가 저장되는 부분
         self.link = None
+        #링크가 저장되는분부분
 
 
 node1 = Node()
@@ -37,8 +41,12 @@ del(node3)
 # print(node1.link.link.link.data, end = ' ')
 # print(node1.link.link.link.link.data, end = ' ')
 
-current = node1 # 시작 값
+current = node1 
+# 시작 값
 print(current.data, end=' ')
-while current.link != None: # 링크 값이 None이 아닐때 까지
-    current = current.link  # 가르키는 대상 증가
+while current.link != None: 
+# 링크 값이 None이 아닐때 까지
+    current = current.link  
+    # 노드의 링크가 가리키는 노드로 변경
     print(current.data, end=' ')
+    #출력
