@@ -28,12 +28,18 @@ node5.data = "지효"
 node4.link = node5
 
 new_node = Node()
+#새 노드 생성
 new_node.data = "인하"
-new_node.link = node2.link # 새 노드가 가리킬 다음 노드(쯔위 노드)는 정연 노드로 부터 얻어 온다.
-node2.link = new_node # 정연 -> 인하
+#새 노드에 데이터 삽입
+new_node.link = node2.link 
+# 새 노드가 가리킬 다음 노드(쯔위 노드)는 정연 노드로 부터 얻어 온다.
+node2.link = new_node 
+# 정연 -> 인하
 
-new_node.link = node3.link # 쯔위가 가지고 있던 사나의 메모리 번지 주소를 인하 노드에 전달
+new_node.link = node3.link 
+# 쯔위가 가지고 있던 사나의 메모리 번지 주소를 인하 노드에 전달
 del(node3)
+#노드 
 # print(node2.link.link.data, end = ' ')
 # print(node1.data, end = ' ')
 # print(node1.link.data, end = ' ')
