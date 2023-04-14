@@ -5,18 +5,27 @@ class Node:
 
 
 def print_nodes(start):
+#노드를 출력하는 함수
     current = start
+    #시작 노드를 매개변수로 받는다
     if current is None:
+    #노드가 비어있다면
         return
+        #반환
 
     print(current.data, end=' ')
-    while current.link is not None:  # current의 링크 값이 None이 아닐때 까지
-        current = current.link  # 가르키는 대상 증가
+    #출력
+    while current.link is not None:  
+    # current의 링크 값이 None이 아닐때 까지
+        current = current.link  
+        #다음 노드로 이동
         print(current.data, end=' ')
+        #출력
     print()
 
 
 head, current, pre = None, None, None
+#head -> 첫번째노드, current -> 지금 처리 중인 노드, pre -> current의 바로 앞 노
 data_array = ["다현", "정현", "쯔위", "사나", "지효"]
 
 if __name__ == "__main__":
