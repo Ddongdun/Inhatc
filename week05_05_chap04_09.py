@@ -40,7 +40,7 @@ def make_simple_linked_List(namePhone) :
 		node.link = head
 		#노드 링크에 현재 헤드 연결
 		head = node
-		#현재 노드를 헤드로정지정
+		#현재 노드를 헤드로 지정
 		return
 
 	# 중간 노드로 삽입하는 경우
