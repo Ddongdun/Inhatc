@@ -19,7 +19,7 @@ def print_nodes(start):
 
 def insert_nodes(find_data, insert_data):
 #노드 삽입 함수
-    global head, pre ,current
+    global head, pre, current
     #전역 변수 선언
 
     if head.data == find_data:
