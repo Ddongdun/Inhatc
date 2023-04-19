@@ -29,7 +29,7 @@ public class BitOperator {
 		//result(|) = 111101
 		
 		result = num1 ^ num2;
-		//xor연산(or의 반전 값)
+		//xor연산(1이 하나만 있을 때 1)
 		System.out.printf("result(^) = %6s\n", Integer.toBinaryString(result));
 		//result(^) = 110100
 		
