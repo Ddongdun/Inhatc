@@ -36,7 +36,7 @@ def insert_nodes(find_data, insert_data):
         #새 노드의 링크를 헤드에 연결
         last = head
         #마지막 노드를 첫번째 노드로 우선 지
-        while last.link != :
+        while last.link != current:
         #마지막 노드를 찾을때까지
             last = last.link
             #last를 다음 노드로 변경
