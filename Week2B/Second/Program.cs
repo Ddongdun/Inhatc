@@ -14,8 +14,11 @@ namespace Second
             //int.Parse로 정수로 받아들인다.
 
             int number;
+            //int형 변수
             string input = Console.ReadLine();
+            //입력받을 변수
             bool result = int.TryParse(input, out number);
+            //인트로 형변환 시켜 number에 저장
 
             if(result == false) {
                 return;
@@ -26,7 +29,7 @@ namespace Second
                 Console.WriteLine("1. 양수");
             }
 
-            //if -else
+            //if-else
             if (number > 0) {
                 Console.WriteLine("1. 양수");
             } else {
