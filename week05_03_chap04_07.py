@@ -21,7 +21,7 @@ def insert_nodes(find_data, insert_data):
     :param insert_data: 입력하는 데이터
     :return:
     '''
-    global head, pre ,current
+    global head, pre, current
 
     if head.data == find_data:
     #첫 번째 노드에 데이터 삽입
