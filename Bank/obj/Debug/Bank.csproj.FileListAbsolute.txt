@@ -1,0 +1,8 @@
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Bank\bin\Debug\Bank.exe.config
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Bank\bin\Debug\Bank.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Bank\bin\Debug\Bank.pdb
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Bank\obj\Debug\Bank.csproj.SuggestedBindingRedirects.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Bank\obj\Debug\Bank.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\Bank\obj\Debug\Bank.pdb
