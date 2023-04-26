@@ -1,0 +1,11 @@
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\ParkingManager\ParkingManager\bin\Debug\ParkingManager.exe.config
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\ParkingManager\ParkingManager\bin\Debug\ParkingManager.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\ParkingManager\ParkingManager\bin\Debug\ParkingManager.pdb
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\ParkingManager\ParkingManager\obj\Debug\ParkingManager.csproj.AssemblyReference.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\ParkingManager\ParkingManager\obj\Debug\ParkingManager.csproj.SuggestedBindingRedirects.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\ParkingManager\ParkingManager\obj\Debug\ParkingManager.FormMain.resources
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\ParkingManager\ParkingManager\obj\Debug\ParkingManager.Properties.Resources.resources
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\ParkingManager\ParkingManager\obj\Debug\ParkingManager.csproj.GenerateResource.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\ParkingManager\ParkingManager\obj\Debug\ParkingManager.csproj.CoreCompileInputs.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\ParkingManager\ParkingManager\obj\Debug\ParkingManager.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\ParkingManager\ParkingManager\obj\Debug\ParkingManager.pdb
