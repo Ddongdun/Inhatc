@@ -6,6 +6,7 @@ const byte noteCount = sizeof(noteNames);
 // 공백은 쉼표를 의미한다.
 char score[] = 
 "GEEFDDCDEFGGGGEEEFDDCEGGEEEDDDDDEFEEEEEFGGEEFDDCEGGEEE"; 
+//음계
 const byte scoreLen = sizeof(score); 
 void setup()
 {
