@@ -5,25 +5,34 @@ int rd; // Variable for received data
 int br; // Variable for blink rate
 void setup() {
   pinMode(LED, OUTPUT);
-  // Initialize I2C communications as Slave
+  //LED 출력포트 설정
   Wire.begin(SLAVE_ADDR); 
-  // Function to run when data received from master
+  //슬레이브 모드로 자신의 번호 지정 후 초기화
   Wire.onReceive(receiveEvent);
-  // Setup Serial Monitor 
+  //마스터로부터 데이터가 수신되면 receiveEvent함수 동작
   Serial.begin(9600);
+  //딜레이
   Serial.println("I2C Slave Demonstration");
+  //출력
 }
 
 void receiveEvent() {
-  rd = Wire.read(); // read one character from the I2C
-  Serial.println(rd); // Print value of incoming data
+  rd = Wire.read(); 
+  //I2C로 데이터를 읽어온다
+  Serial.println(rd); 
+  //읽어온 데이터 출력
 }
 void loop() {
   delay(50);
-  br = map(rd, 1, 255, 100, 2000); // 수신된 값을 이용하여 delay
-  //시간 계산
+  //딜레이
+  br = map(rd, 1, 255, 100, 2000); 
+  //읽어온 데이터를 map함수를 통해 시간으로 변
   digitalWrite(LED, HIGH);
+  //led를 켬
   delay(br);
+  //br만큼 딜레이
   digitalWrite(LED, LOW);
+  //led를 끔
   delay(br);
+  //br만큼 딜레이
 }
