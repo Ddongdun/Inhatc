@@ -55,7 +55,7 @@ public class AnimalEx {
 			Cat cat = (Cat)animal;
 			//animal을 Cat으로 강제형변환
 			cat.catLife();
-			//cat 설명 메소드 실
+			//cat 설명 메소드 실행
 		}
 		
 	}
