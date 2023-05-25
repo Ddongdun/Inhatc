@@ -8,12 +8,12 @@ public class Area {
 	}
 	
 	int areaCal(int width) {
-	//넓이 구하는 함수
+	//정사각형 넓이 구하는 함수
 		return width * width;
 		//width를 매개변수로 받아 값 리턴
 	}
 	int areaCal(int width, int height) {
-	//부피 구하는 함수
+	//직사각형 넓이 구하는 함수
 		return width * height;
 		//width와 height를 매개변수로 받아 값 리턴
 	}
