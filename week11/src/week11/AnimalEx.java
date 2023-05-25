@@ -3,9 +3,13 @@ package week11;
 public class AnimalEx {
 	public static void main(String[] args) {
 		Dog dog = new Dog();
+		//Dog 생성자 선언
 		Cat cat = new Cat();
+		//Cat 생성자 선언
 		dog.sound();
+		//dog 메소드 출력
 		cat.sound();
+		//cat 메소드 출력
 		System.out.println("----------");
 		
 		Animal animal = null;
