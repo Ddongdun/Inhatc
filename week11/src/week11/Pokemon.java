@@ -1,6 +1,7 @@
 package week11;
 
 public abstract class Pokemon {
+//추상 클래스 선언
 	public void introduce() {
 	//소개 하는 메소드
 		name();
