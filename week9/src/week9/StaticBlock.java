@@ -13,14 +13,16 @@ public class StaticBlock {
 		
 	}
 	static {
+	//정적 초기화 블록
 		field2 = 10;
 		method2();
 	}
 	static void method3() {
+	//정적 메소드
 		//this.field1 = 10;
 		//this.method1();
-		//인스턴스 멤버는 객체에 소속된 멤버이기에 객체 없이 사용 불가
-		//this 사용 불
+		//인스턴스 멤버를 사용하려면 객체를 생성해야함
+		//this 사용 불가
 		
 		field2 = 10;
 		method2();
