@@ -9,7 +9,7 @@ public class Dog extends Animal {
 	}
 	@Override
 	public void sound() {
-	//부모 메소드 오버라이드
+	//부모 추상 메소드 오버라이드
 		System.out.println("멍멍");
 		//출력
 	}
