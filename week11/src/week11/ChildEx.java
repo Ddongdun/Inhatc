@@ -3,6 +3,7 @@ package week11;
 public class ChildEx {
 	public static void main(String[] args) {
 		Child child = new Child();
+		//child 클래스 생성자 선
 		
 		//자식 클래스 객체는 부모 클래스 참조변수에 대입 가능
 		//자동 타입 변환
