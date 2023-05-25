@@ -1,5 +1,6 @@
 package package1;
 import week10.ClassA;
+//패키지 사용을 위해 import
 
 public class ClassC {
 	ClassA c1 = new ClassA(true);
