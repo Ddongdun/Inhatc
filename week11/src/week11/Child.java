@@ -5,12 +5,15 @@ public class Child extends Parent{
 	//Parent 클래스에 정의된 method2를 재정의
 	@Override
 	public void method2() {
-		// TODO Auto-generated method stub
+	//메소드 오버라이드
 		System.out.println("Child-method2");
+		//출력
 	}
 	
 	//method3()는 자식 클래스에만 존재
 	public void method3() {
+	//메소드3
 		System.out.println("Child-method3");
+		//출력
 	}
 }
