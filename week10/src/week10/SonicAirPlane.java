@@ -1,10 +1,14 @@
 package week10;
 
 public class SonicAirPlane extends AirPlane{
+//AirPlane을 상속받는다
 	public static final int NORMAL = 1;
+	//절대 불변 상수 필드1
 	public static final int SUPERSONIC = 2;
+	//절대 불변 상수 필드2
 	
 	int flyMode = NORMAL;
+	//
 	
 	private int soundSpeed;
 	private int maxSpeed;
