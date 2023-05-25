@@ -4,8 +4,10 @@ public class SonicAirPlane extends AirPlane{
 //AirPlane을 상속받는다
 	public static final int NORMAL = 1;
 	//절대 불변 상수 필드1
+	//반드시 초기값 주어야 함
 	public static final int SUPERSONIC = 2;
 	//절대 불변 상수 필드2
+	//반드시 초기값 주어야 함
 	
 	int flyMode = NORMAL;
 	//flyMode를 지정하는 필드
