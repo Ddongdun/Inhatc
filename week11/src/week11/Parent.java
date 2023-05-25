@@ -2,7 +2,8 @@ package week11;
 
 public class Parent {
 	String field;
-	//필드 선
+	//필드 선언
+	
 	
 	public void method1() {
 	//메소드 1
