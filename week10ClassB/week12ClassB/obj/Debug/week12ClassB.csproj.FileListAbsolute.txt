@@ -1,0 +1,8 @@
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week12ClassB\bin\Debug\week12ClassB.exe.config
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week12ClassB\bin\Debug\week12ClassB.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week12ClassB\bin\Debug\week12ClassB.pdb
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week12ClassB\obj\Debug\week12ClassB.csproj.AssemblyReference.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week12ClassB\obj\Debug\week12ClassB.csproj.SuggestedBindingRedirects.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week12ClassB\obj\Debug\week12ClassB.csproj.CoreCompileInputs.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week12ClassB\obj\Debug\week12ClassB.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week12ClassB\obj\Debug\week12ClassB.pdb

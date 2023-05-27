@@ -1,0 +1,3 @@
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week10ClassB\obj\Debug\week10ClassB.csproj.AssemblyReference.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week10ClassB\obj\Debug\week10ClassB.csproj.SuggestedBindingRedirects.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week10ClassB\obj\Debug\week10ClassB.csproj.CoreCompileInputs.cache

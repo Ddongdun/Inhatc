@@ -1,0 +1,16 @@
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\wwek10ClassB\week11ClassB\bin\Debug\week11ClassB.exe.config
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\wwek10ClassB\week11ClassB\bin\Debug\week11ClassB.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\wwek10ClassB\week11ClassB\bin\Debug\week11ClassB.pdb
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\wwek10ClassB\week11ClassB\obj\Debug\week11ClassB.csproj.AssemblyReference.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\wwek10ClassB\week11ClassB\obj\Debug\week11ClassB.csproj.SuggestedBindingRedirects.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\wwek10ClassB\week11ClassB\obj\Debug\week11ClassB.csproj.CoreCompileInputs.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\wwek10ClassB\week11ClassB\obj\Debug\week11ClassB.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\wwek10ClassB\week11ClassB\obj\Debug\week11ClassB.pdb
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week11ClassB\bin\Debug\week11ClassB.exe.config
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week11ClassB\bin\Debug\week11ClassB.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week11ClassB\bin\Debug\week11ClassB.pdb
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week11ClassB\obj\Debug\week11ClassB.csproj.AssemblyReference.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week11ClassB\obj\Debug\week11ClassB.csproj.SuggestedBindingRedirects.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week11ClassB\obj\Debug\week11ClassB.csproj.CoreCompileInputs.cache
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week11ClassB\obj\Debug\week11ClassB.exe
+C:\Users\andel\OneDrive\바탕 화면\개발\C#\week10ClassB\week11ClassB\obj\Debug\week11ClassB.pdb
