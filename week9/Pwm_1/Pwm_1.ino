@@ -1,6 +1,7 @@
 void setup()
 {
   pinMode(3, OUTPUT);
+  //3번 핀 출력모드로 설정 
 }
 void loop()
 {
