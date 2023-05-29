@@ -29,8 +29,11 @@ def push(data):
 
 
 SIZE = 5
-stack = ["커피", "녹차", "꿀물", "콜라", None]
+#스택의 크기
+stack = ["커피", "녹차", "꿀물", "콜라", None] 
+#스택의 원소 배열
 top = 3
+#원소가 4개이므로 -1 해준 값이 탑값
 
 print(stack)
 push("환타")
