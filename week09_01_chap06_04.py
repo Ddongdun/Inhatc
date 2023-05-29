@@ -1,5 +1,5 @@
 def is_stack_full() -> bool:
-#스택이 꽉 찼는데 확인하는 함수 -> 불 값
+#스택이 꽉 찼는지 확인하는 함수 -> 불 값
     global SIZE, stack, top
     #전역 변수 선언
     if (top >= SIZE - 1):
