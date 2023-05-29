@@ -14,20 +14,31 @@ def is_queue_full():
     else:
     # 앞쪽이 비었을 때
         for i in range(front + 1, SIZE):
-        #
+        #front 다음부터 SIZE 만큼 반복
             queue[i - 1] = queue[i]
+            #데이터를 앞 쪽으로 옮겨준다
             queue[i] = None
+            #남은 자리는 넌 값
         front -= 1
+        #front 값 - 1
         rear -= 1
+        #rear 값 - 1
         return False
+        #false 리턴
 
 
 def is_queue_empty():
+#큐가 비었는지 확인하는 함수
     global SIZE, queue, front, rear
+    #전역 변수 선언
     if front == rear:
+    #front와 rear값이 같다면
         return True
+        #리턴 트루
     else:
+    #그렇지 않다면
         return False
+        #리턴 폴스 
 
 
 def enQueue(data):
