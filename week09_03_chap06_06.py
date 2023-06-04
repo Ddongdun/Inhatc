@@ -27,7 +27,7 @@ def is_stack_empty() -> bool:
 
 
 def pop() -> str:
-#데이터를 추출하는 함수
+#데이터를 삭제하는 함수
     global SIZE, stack, top
     #전역변수 선언
     if is_stack_empty():
