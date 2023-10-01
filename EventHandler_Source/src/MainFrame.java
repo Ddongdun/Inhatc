@@ -64,8 +64,9 @@ public class MainFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+    //Button1 이벤트
         jLabel1.setText("확인(ok) Button Click");
+        //Label1 텍스트 변경
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
