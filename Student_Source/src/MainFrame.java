@@ -66,8 +66,10 @@ public class MainFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    //jButton1을 눌렀을때
         // TODO add your handling code here:
         jLabel1.setText("Inha Technical College 202244112 신동준");
+        //레이블1의 텍스트를 설정
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
