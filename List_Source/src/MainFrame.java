@@ -114,6 +114,7 @@ public class MainFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
+    //Add 버튼
         Vector myVC = new Vector();
         //아이템 저장을 위한 벡터 클래스
         int iListSize = 0;
@@ -134,11 +135,13 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_btnAddActionPerformed
 
     private void btnDelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDelActionPerformed
+    //Del 버튼
         Vector myVC = new Vector();
         //아이템 저장을 위한 벡터 클래스
         int iList_index = 0;
+        //인덱스 저장 변수
         int iListSize = 0;
-        //리스트 사이즈 저장
+        //리스트 사이즈 저장 변수
         
         iListSize = lstCompany.getModel().getSize();
         //리스트 사이즈 반환
