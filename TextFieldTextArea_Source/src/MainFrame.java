@@ -101,14 +101,19 @@ public class MainFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-
+    //jButton1 액션
         if (jTextArea1.getText() == null){
+        //텍스트아레아가 비어있다면
             jTextArea1.append(jTextField1.getText());
+            //Field1에 입력된 텍스트를 추가
         }
         else{
+        //그렇지 않다면
             jTextArea1.append(jTextField1.getText() + "\n");
+            //줄바꿈을 같이 추가
         }
         jTextField1.setText(null);
+        //입력칸은 비운다
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
