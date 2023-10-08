@@ -12,5 +12,6 @@
 	<h3>info 속성에 값을 적용한 결과</h3>
 	<br><br>
 	<%= getServletInfo() %>
+	//서블렛의 속성을 가져온다
 </body>
 </html>
