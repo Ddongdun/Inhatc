@@ -9,7 +9,9 @@
 <body>
 	<%
 		String web = request.getParameter("web");
+		//web에 저장된 선택값을 가져온다
 		response.sendRedirect(web);
+		//주소 연결
 	%>
 	
 </body>
