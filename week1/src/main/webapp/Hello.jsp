@@ -9,5 +9,6 @@
 <body>
 	<h1>Hello JSP World</h1>
 	<a href = "Hello.html">Hello.html 페이지로 연결</a>
+	//Hello.html페이지로 이동하는 하이퍼링크 생성
 </body>
 </html>
