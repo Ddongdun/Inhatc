@@ -18,5 +18,6 @@
 	요청 URI = <%=request.getRequestURI() %><br>
 	서버 이름 = <%=request.getServerName() %><br>
 	서버 포트 = <%=request.getServerPort() %><br>
+	//각종 정보를 가져오는 request의 함수
 </body>
 </html>
