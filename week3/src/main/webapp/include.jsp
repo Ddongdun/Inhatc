@@ -15,5 +15,6 @@
 	<h3>4. 캐나다</h3>
 	<h3>5. 호주</h3>
 	<%@ include file="dateTime.jsp" %>
+	//dateTime.jsp파일을 인클루드
 </body>
 </html>
