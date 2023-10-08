@@ -30,15 +30,21 @@ public class Gugu extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html;charset = utf-8");
 		int num = Integer.parseInt(request.getParameter("number"));
+		//gugu.html에서 number를 가져온다
 		
 		PrintWriter out = response.getWriter();
-		out.println("<html.<body>");
+		//gerWriter 객체 선언
+		out.println("<html><body>");
 		out.println("<h3>구구단 " + num+ "단</h3>");
 		for(int i = 1;i <=9; i++) {
+		//구구단을 계산하는 반복문
 			out.println(num + "*" + i + " = " + (num*i) + "<br>");
+			//출력 후 줄바꿈
 		}
 		out.println("</body></html>");
+		//html문 닫기
 		out.close();
+		//종료
 	}
 
 	/**
