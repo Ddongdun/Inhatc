@@ -8,8 +8,10 @@
 </head>
 <%
 	String color = request.getParameter("color");
+	//request객체의 getParameter로 bgColor.html의 color값을 가져온다
 %>
 <body bgcolor="<%=color%>">
+//가져온 color값으로 색 변경
 	
 </body>
 </html>
